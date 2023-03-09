@@ -2,7 +2,7 @@ import requests
 import json
 
 # Se ingresa el monto por linea de comando
-mont = input('Ingresa el monto: ')
+monto = input('Ingresa el monto: ')
 # Se elige la moneda por linea de comando
 moneda = input('Selecciona la moneda [ARS o EUR]: ')
 
