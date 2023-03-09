@@ -6,8 +6,7 @@ monto = input('Ingresa el monto a convertir: ')
 
 # Si el valor tiene decimales, debe ser con '.'
 if "," in monto:
-    print("Error: no utilizar ',' en el monto para especificar decimales. Utilizar '.'")
-    exit()
+    exit("Error: no utilizar ',' en el monto para especificar decimales. Utilizar '.'")
 else:
     pass
 
@@ -21,8 +20,7 @@ match moneda:
     case "ars"|"eur":
         moneda = moneda.upper()
     case other:
-        print("La moneda seleccionada no es correcta, solo acepta ARS o EUR por el momento.")
-        exit()
+        exit("La moneda seleccionada no es correcta, solo acepta ARS o EUR por el momento.")
 
 # Se guarda la API Key, los parametros y la URL de Currency API para obtener las cotizaciones
 api_key = "33c0924ef4c5256e1341fc05eb4e96d701f7ea03"
