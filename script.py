@@ -2,11 +2,9 @@ import requests
 import json
 
 # Se ingresa el monto por linea de comando
-print('Ingresa el monto: ')
-monto = input()
+mont = input('Ingresa el monto: ')
 # Se elige la moneda por linea de comando
-print('Selecciona la moneda [ARS o EUR]: ')
-moneda = input()
+moneda = input('Selecciona la moneda [ARS o EUR]: ')
 
 # Se guarda la API Key, los parametros y la URL de Currency API para obtener las cotizaciones
 api_key = "33c0924ef4c5256e1341fc05eb4e96d701f7ea03"
